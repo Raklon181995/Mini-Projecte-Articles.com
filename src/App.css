@@ -1,0 +1,92 @@
+.App {
+  min-height: 100vh;
+  background-color: #83878d;  
+  /* #282c34 */
+  color: rgb(255, 255, 255);
+  padding: 20px;
+
+}
+
+.home{
+  
+  padding: 20px;
+  background-color: #d8e4e7; 
+}
+.box{
+  padding: 30px 50px;
+  background-color: #d3deec;
+  margin: 2% auto 7% auto; /* 5% from the top, 15% from the bottom and centered */
+  
+  width: 50%; /* Could be more or less, depending on screen size */
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  /* border: 1px solid rgb(12, 3, 3); */
+}
+.form-control {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button:hover {
+  opacity: 0.8;
+}
+
+
+.mb-3{
+  padding: 16px;
+}
+
+
+
+.hrclass {
+  background-color: rgb(97, 107, 101);
+}
+
+.App-link {
+  color: #61dafb;
+}
+/*--Nav bar-- */
+/* .nav{
+  width: 100%;
+
+} */
+.nav-item{
+  float: right;
+}
+.topnav-right{
+  float: right;
+}
+.navbar-brand{
+
+  width: 250px;
+}
+
+.logintxt{
+  text-align: center;
+}
+.article-box{
+  /* width: 70%;  */
+   margin-left: 8%;
+   margin-right: 8%;
+   margin-top: -3%;
+   
+   /* font-family: 'Times New Roman', Times, serif; */
+   
+  }
+
+.footer{
+  color: white; 
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+  
+}
